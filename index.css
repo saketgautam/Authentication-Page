@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 body{
-    background: #F8F8F8;
+    background-image: url(index-background.jpg);
 }
 
 *, *::before, *::after{
     box-sizing: border-box;
+}
+
+.card-header{
+  background-color: #0081FD;
+  color: #F8FAF9;
 }
 
 .custom-field{
