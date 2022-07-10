@@ -36,7 +36,7 @@
         </label>
         <br />
         <label class="custom-field">
-          <input id="password" type="password" class="input" required />
+          <input id="password" type="password" class="input" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$" title="Minimum six characters, at least one letter, one number and one special character" required />
           <span class="placeholder">Password</span>
         </label>
       </center>
